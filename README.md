@@ -9,20 +9,20 @@
 
 ## Demos of machine learning models
 
-this is a list of machine learning models that I have implemented in this repository. I have implemented these models using `scikit-learn library`.
+This is a list of machine learning models demos that I have implemented (or intend to) in this repository. I have implemented these models using `scikit-learn library`.
 
-> each demo have a evaluation of the model using `sklearn.metrics` module.
+> Each demo have a evaluation of the model using `sklearn.metrics` module.
 
-### supervised learning
+### Supervised learning
 
-#### classification
+#### Classification
 
-- [x] k-Nearest Neighbors
+- [x] K-Nearest Neighbors
 - [x] Decision Tree Classifier
 - [ ] Naive Bayes
 - [ ] Random Forest Classifier
 
-#### regression
+#### Regression
 
 - [ ] Linear regression
 - [ ] Polynomial regression
@@ -30,7 +30,7 @@ this is a list of machine learning models that I have implemented in this reposi
 - [ ] Random forest regression
 
 
-### unsupervised learning
+### Unsupervised learning
 
 - [ ] K-means
 - [ ] Principal Component Analysis (PCA)
