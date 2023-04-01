@@ -19,7 +19,7 @@ this is a list of machine learning models that I have implemented in this reposi
 
 - [x] k-Nearest Neighbors
 - [x] Decision Tree Classifier
-- [ ] Naive Bayes
+- [x] Naive Bayes
 - [ ] Random Forest Classifier
 
 #### regression

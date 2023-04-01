@@ -1,5 +1,5 @@
 from sklearn.model_selection import cross_val_predict
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
 from evaluate import evaluate_model
 import pandas as pd
 
@@ -9,12 +9,12 @@ df = pd.read_csv(
 X = df.drop("species", axis=1)
 y = df["species"]
 
-# Create a kNN classifier object
-knn = KNeighborsClassifier(n_neighbors=5)
+# Create a Naive-Bayes classifier object
+nb = GaussianNB()
 
 # ? K-fold validation
 y_pred = cross_val_predict(
-    knn, X, y, cv=5)  # k-fold cross-validation
+    nb, X, y, cv=5)  # k-fold cross-validation
 
 # evalute the model
 evaluate_model(y.values, y_pred, ["Iris-setosa",
