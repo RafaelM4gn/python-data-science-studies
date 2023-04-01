@@ -2,10 +2,10 @@
 
 ## List of tools and technologies used until now
 
-    * scikit-learn
-    * pandas
-    * numpy
-    * matplotlib
+* scikit-learn
+* pandas
+* numpy
+* matplotlib
 
 ## Demos of machine learning models
 
@@ -37,4 +37,4 @@ this is a list of machine learning models that I have implemented in this reposi
 - [ ] Hierarchical clustering
 - [ ] Association rules
 
-## TODO
+## Demos of relacional databases
